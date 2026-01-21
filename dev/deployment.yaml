@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: quay.io/argoproj/argocd
+        image: sunultradavid/argocd-app:1.2
         ports:
         - containerPort: 8080
